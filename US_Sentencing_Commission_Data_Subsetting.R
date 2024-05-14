@@ -20,3 +20,5 @@ sentencing2023_subset$COMBDRG2 <- sentencing2023$COMBDRG2
 sentencing2023_subset <- sentencing2023_subset[,-(1)] 
 write.csv(sentencing2023_subset, file="sentencing_2023_subset.csv")
 summary(sentencing2023_subset)
+
+## link to CSV files: https://drive.google.com/drive/folders/1BphuUJ1DZnHhfuRHcWk6cGHmXN9JD4DZ?usp=sharing
